@@ -18,7 +18,7 @@ function closeNav() {
     blurSection.classList.remove("active");
     social.classList.remove("active");
 }
-//To close for clicking the outside of the sidebar
+
 $(document).click(function(e) {
 	if (!$(e.target).is('#sidebar')&& !$(e.target).is('#menu-toggle')){	
         closeNav();    
