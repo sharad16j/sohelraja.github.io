@@ -47,10 +47,10 @@ $(function(){
 $("#project-more").click(function(){
 	$(".popup").fadeIn(200,function(){
 		$(this).addClass("visibility-popup");
-	/*	$("#project-more").delay(3000).queue(function(){
+		$("#project-more").delay(3000).queue(function(){
 			var url="https://github.com/SohelRaja?tab=repositories";
 			$(location).prop("href",url);
-		});*/
+		});
 	});
 });
 $(".popupclose").click(function(){
