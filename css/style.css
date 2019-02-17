@@ -58,12 +58,12 @@ header.navcolor {
 	margin: 0;
 	margin-right: 8%;
 }
-.nav-block ul{/*nav-block class indicates nav tag*/
+.nav-block ul{
 	margin: 0;
 	padding: 0;
 	display: flex;
 }
-.nav-block ul .nav-block-item{/* 'nav-block-item' class indicates single 'li' tag*/
+.nav-block ul .nav-block-item{
 	margin: 0;
 	list-style: none;
 }
