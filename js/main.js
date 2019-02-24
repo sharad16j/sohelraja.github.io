@@ -24,6 +24,13 @@ $(document).click(function(e) {
         closeNav();    
     }
 });
+/*.....................preloader................................*/
+//Loader termination function
+function preloader(){
+	var preload = document.querySelector("#preloader");
+	preload.style.display = 'none';
+	preload.style.opacity = 0;
+}
 /*..............................On Scroll Navbar.................................*/
 //navbar scrolling effects
 $(window).on("scroll",function(){
